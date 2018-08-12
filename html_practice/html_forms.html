@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form for something</title>
+    </head>
+    <body>
+        <h1> Register </h1>
+        <!-- action - where the form sends the data too -->
+        <!-- method - what http method to use [Get/Post] -->
+        <!-- default method is going to be a get request -->
+        <!--<form action="http://wikipedia.org" method="GET">
+            <label for="UName">Username:</label>
+            <input id="UName" type="email" placeholder="UserName@email.com" required>
+            <label for="Pass">Password:</label>
+            <input id="Pass" type="password" placeholder="password" pattern=".{8}" required>
+            <button><strong>submit</strong></button>
+            </form>
+        -->
+        <form method="get">
+            <div>
+                <label for="fname"> First Name: </label>
+                <input name="first" type="text" placeholder="john" id="fname" required>
+                <label for="lname"> Last Name: </label>
+                <input name="last" type="text" placeholder="doe" id="lname" required>
+            </div>
+
+            <div>
+                <label for="male">Male: </label> 
+                <input id="male" type="radio" value="male" name="gender">
+                <label for="female">Female: </label> 
+                <input id="female" type="radio" value="female" name="gender">
+                <label for="other">other: </label> 
+                <input id="other" type="radio" value="other" name="gender">
+            </div>
+
+            <div>
+                <label for="email"> Email: </label>
+                <input name="email" type="email" placeholder="your email" id="mail" required>
+                <label for="pass"> Password: </label>
+                <input type="password" placeholder="your password" id="pass" pattern=".{5,10}" title="Password must be between 5 and 10 characters">
+            </div>
+
+            <div>
+                <label>
+                    Birthday:
+                    <!--<select>
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                        </select>
+                    -->
+                    <input name="bday" type="date" required>
+                    <!-- <select>
+                        <?php
+                        $start_date=1;
+                        $end_date=31;
+                        for($j=$start_date; $j<=$end_date; $j++ ){
+                        echo '<option value='.$j.'>'.$j.'</option>';
+                        }
+                        ?>
+                        </select>
+                    -->
+                </label>
+            </div>
+            <div>
+                <label>
+                    I agree to the terms and conditions:
+                    <input type="checkbox" name="terms" required>
+            </div>
+
+            <input type="submit" value="Submit~!">
+        </form>
+    </body>
+</html>

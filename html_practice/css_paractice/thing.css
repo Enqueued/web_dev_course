@@ -1,0 +1,23 @@
+h1{
+    color: #C7B452;
+    font-size: 50px;
+}
+h2{
+    color: rgb(120,200,50);
+    font-size:30px;
+}
+ul{
+    color:aquamarine;
+    font-size:20px;
+}
+p{
+    color:white;
+}
+body{
+    background: url(https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/151059.jpg);
+    background-size: cover;
+}
+div{
+    background: rgba(10,0,13,.4);
+    border: 2px dotted purple;
+}
