@@ -1,0 +1,5 @@
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66; /*<-- there are 2 margins on each picture so you need to divide 100 by 6 for 3 pictures on a screen -->*/
+}

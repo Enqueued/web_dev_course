@@ -1,0 +1,39 @@
+/* body */
+/*body{
+    margin: auto auto;
+}*/
+
+table{
+    width: 100%;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+td{
+    width: 33.33%;
+    border: solid 6px black;
+}
+
+td:after{
+    content: '';
+    margin-top: 100%;
+    display: block;
+}
+
+td:first-of-type{
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+td:nth-of-type(2){
+    border-top-color:transparent;
+}
+
+td:nth-of-type(3){
+    border-top-color: transparent;
+    border-right-color:transparent;
+}
+
+tr:nth-of-type(3) td{
+    border-bottom-color:transparent;
+}
