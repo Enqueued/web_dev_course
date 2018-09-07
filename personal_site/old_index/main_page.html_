@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GCW</title> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.21.0/css/jquery.terminal.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style_base.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class ="sr-only">Toggle navigation</span>
+                        <span class ="icon-bar"></span>
+                        <span class ="icon-bar"></span>
+                        <span class ="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">GCW</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"> About </a></li>
+                        <li><a href="#"> Github </a></li>
+                        <li><a href="#"> Resume </a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"> Contact </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="main_page_container">
+            <div class="jumbotron">
+                <h1 id="main_title"><i class="fas fa-laptop"></i> George Wilborn</h1>
+                <h3 id="sub_title">Software Engineer</h3> 
+                <p id="sub_text">Applications, Websites, Social Media</p>
+            </div>
+            <div id="About_me">
+                <h4>Hello,</h4>
+                <p id="about_p">
+                <span id="name_p">My name is George Wilborn.</span><hr>
+                <div id="paragraph">
+                    I'm a local software engineer currently based in San Antonio Tx. I've got my BS but I doubt that you want to hear about that. I've done a bunch of cool stuff; made a game, created a server from scratch, built websites, all sorts of things. In my free time I tend to code, study, or play games. 
+                </div>
+                </p>
+
+<!----
+                <div id="term_demo" class="terminal" style="height: 200px; --char-width:7.23438;">
+                    <div class="terminal-wrapper">
+                        <div class="terminal-output" role="log">
+                            <div data-index="0">
+                                <div style="width: 100%;">
+                                    <span>JavaScript&nbsp;Interpreter&nbsp;(</span>
+                                </div>
+                                <div style="width: 100%;">
+                                    <span>term&nbsp;v.&nbsp;1.21.0)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cmd" style="width: 100%;">
+                            <span class="prompt">
+                                <span>js&gt;&nbsp;</span>
+                            </span>
+                            <div class="cursor-line" role="presentation" aria-hidden="true">
+                                <span></span>
+                                <span class="cursor">&nbsp;</span>
+                                <span></span>
+                            </div>
+                            <textarea autocapitalize="off" spellcheck="false" tabindex="1" class="clipboard" style="">
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="font">&nbsp;</div>
+                    <div class="terminal-fill"></div>
+                </div>
+            </div> -->
+            <!--<div class="row">
+                <div class="col-lg-4 col-sm-6"><div class="thumbnail"> <img src="http:/source.unsplash.com/5f4hUdiJGIs"> </div></div> 
+                <div class="col-lg-4 col-sm-6"><div class="thumbnail"> <img src="http:/source.unsplash.com/5f4hUdiJGIs"> </div></div> 
+                <div class="col-lg-4 col-sm-6"><div class="thumbnail"> <img src="http:/source.unsplash.com/5f4hUdiJGIs"> </div></div> 
+                </div>
+                </div>-->
+                <!-- nav bar is usually never hand written just copied then edited. -->
+
+                <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="js/jquery.terminal.min.js?cef785fefda8f43bb4d2aa60a5fdb129"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.21.0/js/jquery.terminal.min.js"></script>   
+    </body>
+</html>

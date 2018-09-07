@@ -1,30 +1,106 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>GCWelcome</title>
+        <title>GCW</title> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.21.0/css/jquery.terminal.min.css" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="style_base.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </head>
     <body>
-        <h2>George Wilborn</h2>
-        <h3>Software Developer</h3>
-        <br>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class ="sr-only">Toggle navigation</span>
+                        <span class ="icon-bar"></span>
+                        <span class ="icon-bar"></span>
+                        <span class ="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><i class="fas fa-laptop"></i> GCW</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"> About </a></li>
+                        <li><a href="https://github.com/UltimaQuazar"> Github </a></li>
+                        <li><a href="files/GCW_resume.pdf"> Resume </a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="mailto:gcw66@protonmail.com?subject=Website_Contact"><i class="fas fa-at"></i> E-Mail Me!</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" title="(210) 848-5067"><i class="fas fa-phone"></i> Call Me!</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="main_page_container">
+            <div class="jumbotron">
+                <h1 id="main_title"> George Wilborn</h1><hr>
+                <h3 id="sub_title">Software Engineer</h3> 
+                <p id="sub_text">Applications, Websites, Databases</p>
+            </div>
+            <div id="About_me">
+                <p id="about_p">
+                <div id="paragraph">
+                    <h3 id="wia">What I do</h3><hr>
+                    I'm a freelance full-stack engineer currently based in San Antonio, Tx.  
+                    <br>My B.S. is in Computer Science with a focus in Software Engineering. I enjoy programming in my freetime. Please feel free to check out my source code on <a href="https://github.com/UltimaQuazar">GitHub</a>. 
+                </div>
+                <br>
+                <hr>
+                </p>
+            </div>
+            <div id="languages">
+                <h3 class="lang">Languages</h3>
+                <hr>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><i class="far fa-dot-circle" id="dot"></i> C</li>
+                                <li><i class="far fa-dot-circle" id="dot"></i> Python</li>
+                                <li><i class="far fa-dot-circle" id="dot"></i> Java</li>
+                                <li><i class="far fa-dot-circle" id="dot"></i> GoLang</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li><i class="far fa-dot-circle" id="dot"></i> Perl</li>
+                                <li><i class="far fa-dot-circle" id="dot"></i> JavaScript</li>
+                                <li><i class="far fa-dot-circle" id="dot"></i> HTML</li>
+                                <li><i class="far fa-dot-circle" id="dot"></i> CSS</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+<!--            <hr>
+            <div id="projects">
 
-        <div id="image-walk">
-            <!-- Images about what I do or what I like are going to be going here. -->
-        </div>
+</div>-->
+            <div id="contact_me">
+                <hr>
+                <table>
+                    <tr>
+                        <td id="bot"><a href="https://twitter.com/GCW_xyz"><i class="fab fa-twitter-square"></i></a></td>
+                        <td></td>
+                        <td id="bot"><a href="https://github.com/UltimaQuazar"><i class="fab fa-github-square"></i></a></td>
+                        <td></td>
+                        <td id="bot"><a href="https://www.linkedin.com/in/george-w-8b253453/"><i class="fab fa-linkedin"></i></a></td>
+                    </tr>
+                </table> 
+            </div>
+            <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-        <div id="what-i-do">
-            <!-- github, linkedin, keyboards -->
-        </div>
-
-        <div id="resume-field">
-            <!-- Resume -->
-        </div>
-
-        <div id="contact-me">
-            <!-- Contact fields -->
-        </div>
-
+            <script src="js/jquery.terminal.min.js?cef785fefda8f43bb4d2aa60a5fdb129"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.21.0/js/jquery.terminal.min.js"></script>   
     </body>
 </html>

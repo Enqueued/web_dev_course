@@ -1,4 +1,95 @@
 body{
-    background-image: url("../../../Pictures/Wallpapers/kd75.jpg");
-    background-repeat: repeat;
+    background-image: url("assets/wood_wall.jpg");
+    /*VeUSCLJrLf4"); 9NmEdEZAZus");*/
+    background-color: #454251;/*#d5d7de;*/
+    background-position: center;
+    padding-top: 50px;
+}
+.navbar-inverse{
+    background-color: rgba(0, 0, 0, 0.2);/*#4b475f;*/
+    border-color: rgba(0, 0, 0, 0.0);/*4b475f;*/
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #c1bfc9;
+}
+.navbar-inverse .navbar-brand{
+    color: #c1bfc9;
+}
+#main_page_container{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+}
+.jumbotron{
+    color: #c1bfc9;
+    background-color: rgba(75,71,95,0.3);
+}
+.thumbnail{
+    background-color: #1dd4c7;
+    border-color: #1dd4c7;
+}
+#main_title{
+    text-align: center;
+    font-size: 50px
+}
+#sub_title{
+    text-align: center;
+    font-size: 2.5em
+}
+#sub_text{
+    text-align: center; 
+    font-size: 1.5em;
+}
+#About_me{
+    text-justify: left;
+    color: white;
+    font-size: 25px;
+}
+#About_me h4{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 10%;
+}
+#about_p{
+    text-justify:center;
+}
+#languages{
+    font-size: 30px;
+}
+#languages hr{
+    width: 30%;
+}
+#paragraph hr{
+    width: 30%;
+}
+#name_p{
+    padding-left: 15px;
+}
+#paragraph{
+    text-align: left;
+    padding-left: 25px;
+}
+#wia{
+    text-align: center;
+}
+#bot{
+    padding-right: 0.5em;
+    font-size: 2em;
+}
+#dot{
+    font-size:20px;
+}
+#languages ul li{
+   padding: 0;
+   list-style: none; 
+   text-align: left;
+}
+.dropdown-menu{
+    background-color: darkslategray;
+}
+.dropdown-item{
+    color: #cacaca;
+
 }
