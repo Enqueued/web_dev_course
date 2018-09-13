@@ -1,9 +1,15 @@
+html{
+    height: 100%;
+}
 body{
     background-image: url("assets/wood_wall.jpg");
-    /*VeUSCLJrLf4"); 9NmEdEZAZus");*/
     background-color: #454251;/*#d5d7de;*/
     background-position: center;
     padding-top: 50px;
+}
+hr{
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 .navbar-inverse{
     background-color: rgba(0, 0, 0, 0.2);/*#4b475f;*/
@@ -15,13 +21,6 @@ body{
 .navbar-inverse .navbar-brand{
     color: #c1bfc9;
 }
-#main_page_container{
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    padding-bottom: 60px;
-    text-align: center;
-    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
-}
 .jumbotron{
     color: #c1bfc9;
     background-color: rgba(75,71,95,0.3);
@@ -30,17 +29,47 @@ body{
     background-color: #1dd4c7;
     border-color: #1dd4c7;
 }
+.dropdown-menu{
+    background-color: darkslategray;
+}
+.dropdown-item{
+    color: #cacaca;
+
+}
+#main_page_container{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+}
 #main_title{
     text-align: center;
-    font-size: 50px
+    font-size: 50px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 #sub_title{
     text-align: center;
-    font-size: 2.5em
+    font-size: 2.5em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 #sub_text{
     text-align: center; 
     font-size: 1.5em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+#sec{
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+   
 }
 #About_me{
     text-justify: left;
@@ -58,11 +87,13 @@ body{
 #languages{
     font-size: 30px;
 }
-#languages hr{
+#languages hr, #paragraph hr{
     width: 30%;
 }
-#paragraph hr{
-    width: 30%;
+#languages ul li{
+   padding: 0;
+   list-style: none; 
+   text-align: left;
 }
 #name_p{
     padding-left: 15px;
@@ -71,9 +102,6 @@ body{
     text-align: left;
     padding-left: 25px;
 }
-#wia{
-    text-align: center;
-}
 #bot{
     padding-right: 0.5em;
     font-size: 2em;
@@ -81,15 +109,7 @@ body{
 #dot{
     font-size:20px;
 }
-#languages ul li{
-   padding: 0;
-   list-style: none; 
-   text-align: left;
+#link{
+    color: #989898;
 }
-.dropdown-menu{
-    background-color: darkslategray;
-}
-.dropdown-item{
-    color: #cacaca;
 
-}
